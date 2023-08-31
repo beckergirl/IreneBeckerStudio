@@ -349,6 +349,15 @@
             /* border: 3px solid rgb(75, 241, 105);  */
     
           }
+        /* contact */
+        .direccionh1{ 
+            font-size: 35px;
+    
+          }
+        .direccion h3{
+            font-size: 16px;
+
+          }
   }
   /* ------ moviles ------ */
 @media(max-width:393px){
@@ -401,7 +410,76 @@
             line-height: 16px;
     
           }
+        /* contact */
+        .direccion h1{ 
+            font-size: 32px;
+    
+          }
+        .direccion h3{
+            font-size: 14px;
+            line-height: 18px;
+          }
   }
+  @media(max-width:375px){
+    
+    .estudio_portfolio{
+       width: 100%;
+    
+     }
+     .contacto_pintura{
+       width: 100%;
+       
+     }
+   
+          
+   .studio{
+       height: 65%;
+       width: 100%;
+       
+        }
+        .texto{
+           height: 60%;
+           width: 85%;
+    
+         }
+         .texto h1{ 
+           font-size: 30px;
+   
+         }
+         .texto h3{
+           font-size: 14px;
+           line-height: 16px;
+         }
+         .imagen{
+           height: 40%;
+           width: 80%;
+
+           display: flex;
+           flex-direction: column;
+         }
+         .foto{
+           height: 50%;
+           width: 100%;
+         }
+            #irene{
+               height: 80%;
+            }
+            .frase{
+            
+                font-size: 7px;
+                line-height: 15px;
+        
+              }
+        /* contact */
+        .direccion h1{ 
+            font-size: 30px;
+    
+          }
+        .direccion h3{
+            font-size: 14px;
+            line-height: 16px;
+          }
+ }
   @media(max-width:360px){
            
     .studio{
@@ -413,10 +491,7 @@
             height: 50%;
             width: 85%;
           }
-          .texto h1{ 
-            font-size: 30px;
     
-          }
           .texto h3{
             font-size: 12px;
             line-height: 16px;
@@ -442,6 +517,11 @@
 
             /* border: 3px solid rgb(75, 241, 105);  */
     
+          }
+          /* contact */
+          .direccion h3{
+            font-size: 12px;
+            line-height: 16px;
           }
   }
   @media(max-width:280px){
@@ -496,6 +576,15 @@
 
             /* border: 3px solid rgb(75, 241, 105);  */
     
+          }
+          /* contact */
+          .direccion h1{ /* titulo EL ESTUDIO */
+            font-size: 25px;
+    
+          }
+          .direccion h3{
+            font-size: 10px;
+ 
           }
   }
 
