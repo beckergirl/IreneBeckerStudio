@@ -311,46 +311,130 @@
    align-items: center;
 }
 .direccion{
-   height: 60%;
-   width: 70%;
+   height: 25%;
+   width: 60%;
 
-   /* border: 3px solid rgb(240, 238, 246);   */
+   /* border: 3px solid rgb(70, 15, 234);  */  
  }
- .direccion h1{ /* CONTACT */
-   height: 20%;
-   width: 100%;
+      .direccion h1{ /* CONTACT */
+          height: 60%;
+          width: 100%;
+       /*   border: 3px solid rgb(240, 238, 246);   */
+         color:#091DD0;
+         font-family: 'Raleway',thin,sans-serif;
+         font-weight: 300;
+         font-size: 3rem;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-align: center; 
+         text-shadow: 2px 2px 0px rgba(82, 191, 242, 0.5),
+                     -2px -2px 0px rgba(252, 25, 169, 0.5),
+                     -4px -4px 0px rgb(250, 255,4, 0.5); 
+                  }
+      .direccion h3{
+         height: 40%;
+          width: 100%;
+         color:#091DD0;
+         font-family: 'Raleway',thin,sans-serif;
+         font-weight: 400;
+         font-size: 12px;
+         line-height: 16px;
+         display: flex;
+         justify-content: center;
+         align-self: center;
+         text-align: center;
+         /* border: 3px solid rgb(240, 238, 246);  */
+         display: flex;
+         align-items: center;
 
-  /*  border: 3px solid rgb(240, 238, 246);   */
+      }
+   .formulario{
+      height: 75%;
+      width: 60%;
+      
+     /*  border: 3px solid rgb(70, 15, 234);  */  
 
-   color:#091DD0;
-   font-family: 'Raleway',thin,sans-serif;
-   font-weight: 300;
-   font-size: 3rem;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center; 
-   text-shadow: 2px 2px 0px rgba(82, 191, 242, 0.5),
-     -2px -2px 0px rgba(252, 25, 169, 0.5),
-     -4px -4px 0px rgb(250, 255,4, 0.5); 
+      display: flex;
 
- }
- .direccion h3{
-   height: 80%;
-   width: 100%;
+      justify-content: center;
+      align-items: center;
+   }
+       #form{
+         height: 100%;
+         width: 50%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
 
-   color:#091DD0;
-   font-family: 'Raleway',thin,sans-serif;
-   font-weight: 400;
-   font-size: 16px;
-   display: flex;
-   justify-content: center;
-   align-self: center;
-   text-align: center;
+       }
+       .field{
+         height: 20%;
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: flex-start;
 
-  /*  border: 3px solid rgb(240, 238, 246);  */ 
+       }
+             .field label{
+               height: 50%;
+               width: 100%;
+               color:#091DD0;
+               font-family: 'Raleway',thin,sans-serif;
+               font-weight: 600;
+               font-size: 18px;
+               /* border: 3px solid rgb(198, 228, 5);  */
 
- }
+               display: flex;
+               justify-content: flex-start;
+               align-items: center;
+
+               border: none;
+               border-bottom: 5px solid #091DD0; 
+
+            }
+            .field input{
+               height: 50%;
+               width: 100%;
+               color:#091DD0;
+               font-family: 'Raleway',thin,sans-serif;
+               font-weight: 400;
+               font-size: 12px;
+               /* border: 3px solid rgb(228, 5, 213); */
+               background-color:  rgb(246, 186, 247);
+               border: none;
+
+            }
+                      #mensaje{
+                        height: 25%;
+                        width: 100%;
+
+                     }
+             
+            #button{
+               height: 11%;
+               width: 35%;
+               color:black;
+               background-color: #FAFF04;
+               text-decoration: none;
+               font-family: 'Raleway',thin,sans-serif;
+               font-weight: 600;
+               font-size: 18px;
+               border: none;
+
+               display: flex;
+               justify-content: center;
+
+             }
+             #button:hover{
+               color:#091DD0;
+               border-radius: 20px;
+
+             }
+
+      /* -------- ANTIGUO RESPONSIVE / YA SE BORRARÁ AL FINAL */
       
     /*   @media(max-width:896px){
         .navbar a{
