@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,16 +43,42 @@
       <h1>CONTACTO</h1>
       <h3>Irene Becker Studio
       <br>CP/ 28 231 Madrid - Spain
-      <br>ibecker.art@gmail.com</h3>
+   <!--    <br>ibecker.art@gmail.com</h3> -->
 
     </div>
-    <div class="">
+    <!-- FORMULARIO --> <!-- DAR FORMA CON CSS / FUNCIONA PERFECTAMENTE  -->
+    <div class="formulario">
 
-<!-- FORMULARIO -->
+      <form id="form">
+            <div class="field">
+                <label for="from_name">Nombre *</label>
+                <input type="text" name="from_name" id="from_name" value="Ingresa tu nombre">
+            </div>
+            <div class="field">
+                <label for="email_id">Email *</label>
+                <input type="text" name="email_id" id="email_id" value="Ingresa tu email">
+            </div>
+            <div class="field">
+                <label for="asunto">Asunto *</label>
+                <input type="text" name="asunto" id="asunto" value="Escribe el asunto">
+            </div>
+            <div class="field" id="mensaje">
+                <label class="mensaje_label"for="message" >Mensaje *</label>
+                <input class="mensaje_input" type="text" name="message" id="message"  value="Escribe tu mensaje aquí...">
+            </div>
+                <input type="submit" id="button" value="Enviar" >
+      </form>
+    </div><!-- cierro parte del formulario -->
 
-    </div>
-    
-  </div>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+  emailjs.init('kxk7IDj4Tv5AxGLGN')
+    </script>
+    <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+    <script src="formulario.js"></script>
+
   <!-- footer -->
   <footer>
     <p>© IRENE BECKER STUDIO | 2023</p>
