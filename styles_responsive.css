@@ -1,0 +1,502 @@
+/* RESPONSIVE */
+
+/* TABLETS */
+
+@media(max-width:1180px){
+    /* navbar */
+    .navbar a{
+        font-size: 28px;
+
+     }
+  }
+  @media(max-width:1024px){
+    /* navbar */
+    .navbar a{
+        font-size: 26px;
+
+     }
+     
+    #irene{
+        height: 82%;
+        
+    }
+    .frase{
+        width: 60%;
+        font-size: 11px;
+        
+    }  
+}
+
+@media(max-width:1000px){
+    /* navbar */
+   .navbar a{
+        font-size: 24px;
+
+    }
+/* texto STUDIO */
+      .texto h1{ /* titulo EL ESTUDIO */
+        font-size: 40px;
+
+      }
+      .texto h3{
+        font-size: 18px;
+
+      }
+      .imagen{
+        width: 70%;
+
+      }
+    }
+   /*  @media(max-width:912px){
+        #smile{
+            height: 85%;
+         }
+        .navbar a{
+            font-size: 28px;
+    
+         }
+         .texto h1{ 
+            font-size: 50px;
+    
+          }
+         .texto h3{
+            width: 100%;
+            font-size: 20px;
+    
+        }
+        .frase{
+            width: 60%;
+            font-size: 12px;
+            
+        } 
+         
+      } */
+    @media(max-width:896px){
+        #smile{
+            height: 92%;
+         }
+        /* navbar */
+        .navbar a{
+            font-size: 23px;
+    
+         }
+         .texto h1{ /* titulo EL ESTUDIO */
+            font-size: 34px;
+    
+          }
+         .texto h3{
+            width: 100%;
+            font-size: 16px;
+    
+        }
+        .frase{
+            width: 65%;
+            font-size: 10px;
+            
+        } 
+         
+      }
+
+  @media(max-width:851px){
+    #smile{
+        height: 90%;
+     }
+   
+    .navbar a{
+        font-size: 22px;
+
+     }
+     .texto h1{ /* titulo EL ESTUDIO */
+        font-size: 30px;
+
+      }
+     
+     .texto h3{
+        width: 100%;
+        font-size: 15px;
+
+    }
+    .frase{
+        width: 65%;
+        font-size: 9px;
+        
+    } 
+     
+  }
+  @media(max-width:750px){
+    /* navbar */
+    .navbar a{
+        font-size: 20px;
+
+     }
+     .texto h1{ /* titulo EL ESTUDIO */
+        font-size: 28px;
+
+      }
+     .texto h3{
+        
+        font-size: 12px;
+    
+
+    }
+    .frase{
+        width: 70%;
+        font-size: 8px;
+
+        
+    }
+  }
+  @media(max-width:700px){
+    .navbar a{
+        font-size: 19px;
+
+     }
+     #smile{
+        height: 88%;
+     }
+  
+  }
+
+/* ------ moviles ------ */
+@media(max-width:600px){
+    #n{
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .navbar{
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /* .navbar{
+        height: 25%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+     } */
+     .navbar a{
+        font-size: 24px;
+     }
+           
+     /* .estudio_portfolio{
+       display: flex;
+       flex-direction: column;
+       align-items: flex-end;
+       justify-content: flex-start;
+    
+     } */
+     .estudio_portfolio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: flex-end;
+        height: 100%
+    
+     }
+     #ep{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: flex-end;
+        height: 100%
+    
+     }
+     /* .contacto_pintura{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    
+     } */
+    .contacto_pintura{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 100%;
+    
+     }
+     #cp{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 100%;
+    
+     }
+     
+     .pestañas{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    
+     }
+     /* .logotipo{
+        width: 20%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     } */
+       .logotipo{
+          width: 50%;
+          height: 30%;
+
+         }
+
+    #l{
+        width: 50%;
+        height: 30%;
+
+     } 
+          #logo{
+             height: 100%;
+          }
+        
+          #smile{
+             /* height: 80%; */
+             height: 100%;
+          }
+          #enlace{
+             /* width: 100%;
+             height: 55%; */
+
+             width: 100%;
+             height: 100%;
+    
+            /* border: 3px solid rgb(87, 41, 223);  */
+    
+    
+          }
+          .smile{
+            height:45%;
+            width: 100%;
+        
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+
+
+         }
+               #fondo_smile{
+                 height: 80%;
+               }
+        .encabezado{
+            height: 20%;
+
+        }
+    .studio{
+        height: 65%;
+        width: 100%;
+        
+        /* border: 3px solid rgb(255, 0, 204);  */
+        
+         }
+         .texto{
+            height: 60%;
+            width: 80%;
+    
+            display: flex;
+            flex-direction: column ;
+            justify-content: space-around;
+            align-content: center;
+          }
+          .texto h1{ /* titulo EL ESTUDIO */
+            height: 30%;
+            display: flex;
+            justify-content: flex-start;/* para movil */
+
+            /* border: 3px solid rgb(240, 238, 246);  */
+    
+            font-size: 35px;
+    
+          }
+          .texto h3{
+            height: 70%;
+            width: 100%;
+
+            /* border: 3px solid rgb(240, 238, 246);  */
+    
+            font-size: 16px;
+          }
+          .imagen{
+            height: 40%;
+            width: 70%;
+
+            display: flex;
+            flex-direction: column;
+
+           /*  border: 3px solid rgb(241, 144, 75);  */
+          }
+          .foto{
+            height: 45%;
+            width: 100%;
+          }
+             #irene{
+                height: 90%;
+             }
+          .frase{
+            height: 55%;
+            width: 100%;
+            font-size: 9px;
+
+            /* border: 3px solid rgb(75, 241, 105);  */
+    
+          }
+  }
+  /* ------ moviles ------ */
+@media(max-width:393px){
+    
+     .estudio_portfolio{
+        width: 100%;
+     
+      }
+      .contacto_pintura{
+        width: 100%;
+        
+      }
+    
+           
+    .studio{
+        height: 65%;
+        width: 100%;
+        
+         }
+         .texto{
+            height: 50%;
+            width: 85%;
+     
+          }
+          .texto h1{ 
+            font-size: 32px;
+    
+          }
+          .texto h3{
+            font-size: 14px;
+            line-height: 18px;
+          }
+          .imagen{
+            height: 40%;
+            width: 80%;
+
+            display: flex;
+            flex-direction: column;
+          }
+          .foto{
+            height: 50%;
+            width: 100%;
+          }
+             #irene{
+                height: 80%;
+             }
+          .frase{
+            
+            font-size: 8px;
+            line-height: 16px;
+    
+          }
+  }
+  @media(max-width:360px){
+           
+    .studio{
+        height: 65%;
+        width: 100%;
+        
+    }
+         .texto{
+            height: 50%;
+            width: 85%;
+          }
+          .texto h1{ 
+            font-size: 30px;
+    
+          }
+          .texto h3{
+            font-size: 12px;
+            line-height: 16px;
+          }
+          .imagen{
+            height: 40%;
+            width: 80%;
+
+            display: flex;
+            flex-direction: column;
+          }
+          .foto{
+            height: 45%;
+            width: 100%;
+          }
+             #irene{
+                height: 80%;
+             }
+          .frase{
+            height: 55%;
+            font-size: 8px;
+            line-height: 16px;
+
+            /* border: 3px solid rgb(75, 241, 105);  */
+    
+          }
+  }
+  @media(max-width:280px){
+
+    .navbar a{
+        font-size: 22px;
+     }
+           
+    .studio{
+        height: 65%;
+        width: 100%;
+        
+       /*  border: 3px solid rgb(0, 4, 255);   */
+        
+         }
+         .texto{
+            height: 60%;
+            width: 85%;
+    
+           /*  border: 3px solid rgb(240, 238, 246);  */ 
+          }
+          .texto h1{ /* titulo EL ESTUDIO */
+            font-size: 25px;
+    
+          }
+          .texto h3{
+            font-size: 10px;
+ 
+          }
+          .imagen{
+            height: 40%;
+            width: 80%;
+
+            display: flex;
+            flex-direction: column;
+
+           /* border: 3px solid rgb(241, 144, 75);  */
+          }
+          .foto{
+            height: 45%;
+            width: 100%;
+
+           /*  border: 3px solid rgb(117, 75, 241); */
+          }
+             #irene{
+                height: 80%;
+             }
+          .frase{
+            height: 55%;
+            font-size: 8px;
+            line-height: 16px;
+
+            /* border: 3px solid rgb(75, 241, 105);  */
+    
+          }
+  }
+
+
