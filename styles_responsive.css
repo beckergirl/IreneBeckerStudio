@@ -15,6 +15,15 @@
         font-size: 26px;
 
      }
+     .texto h1{ /* titulo EL ESTUDIO */
+      font-size: 38px;
+
+    }
+    .direccion h1{ /* titulo CONTACT */
+      font-size: 40px;
+
+    }
+    
      
     #irene{
         height: 82%;
@@ -25,6 +34,11 @@
         font-size: 11px;
         
     }  
+    #button{
+      width: 50%;
+
+    }
+     
 }
 
 @media(max-width:1000px){
@@ -35,7 +49,7 @@
     }
 /* texto STUDIO */
       .texto h1{ /* titulo EL ESTUDIO */
-        font-size: 40px;
+        font-size: 36px;
 
       }
       .texto h3{
@@ -44,6 +58,11 @@
       }
       .imagen{
         width: 70%;
+
+      }
+      /* titulo CONTACO */
+      .direccion h1{ 
+        font-size: 36px;
 
       }
     }
@@ -81,7 +100,7 @@
     
          }
          .texto h1{ /* titulo EL ESTUDIO */
-            font-size: 34px;
+            font-size: 32px;
     
           }
          .texto h3{
@@ -94,6 +113,34 @@
             font-size: 10px;
             
         } 
+        /* titulo CONTACT */
+        .formulario{
+          width: 80%;
+
+        }
+        .direccion h1{
+          font-size: 32px;
+        }
+        .direccion h3{
+          font-size: 11px;
+          line-height: normal;
+  
+        }
+        .field label{
+ 
+          font-size: 14px;
+          /* border: 3px solid rgb(198, 228, 5);  */
+          border-bottom: 4px solid #091DD0; 
+
+       }
+       .field input{
+          font-size: 11px;
+
+       }
+       #button{
+          font-size: 14px;
+
+        }
          
       }
 
@@ -121,6 +168,19 @@
         font-size: 9px;
         
     } 
+ /*    .encabezado p{
+      font-size: 2.3rem;
+
+   } */
+    /* titulo CONTACT */
+    .direccion h1{ 
+      font-size: 30px;
+
+    }
+    .field label{
+      border-bottom: 3px solid #091DD0; 
+
+   }
      
   }
   @media(max-width:750px){
@@ -145,6 +205,15 @@
 
         
     }
+    /* CONTACT */
+    .direccion h1{ 
+      font-size: 28px;
+
+    }
+   .direccion h3{
+    font-size: 10px;
+  
+  }
   }
   @media(max-width:700px){
     .navbar a{
@@ -159,6 +228,10 @@
 
 /* ------ moviles ------ */
 @media(max-width:600px){
+  body{
+    height: 110vmax;/* scroll */
+    width: auto;
+  }
     #n{
         height: 30%;
         display: flex;
@@ -175,24 +248,10 @@
         align-items: center;
 
     }
-
-    /* .navbar{
-        height: 25%;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-     } */
      .navbar a{
         font-size: 24px;
      }
-           
-     /* .estudio_portfolio{
-       display: flex;
-       flex-direction: column;
-       align-items: flex-end;
-       justify-content: flex-start;
-    
-     } */
+  
      .estudio_portfolio{
         display: flex;
         flex-direction: column;
@@ -209,12 +268,6 @@
         height: 100%
     
      }
-     /* .contacto_pintura{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    
-     } */
     .contacto_pintura{
         display: flex;
         flex-direction: column;
@@ -236,14 +289,6 @@
         display: flex;
     
      }
-     /* .logotipo{
-        width: 20%;
-        height: 100%;
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-     } */
        .logotipo{
           width: 50%;
           height: 30%;
@@ -260,37 +305,34 @@
           }
         
           #smile{
-             /* height: 80%; */
              height: 100%;
           }
           #enlace{
-             /* width: 100%;
-             height: 55%; */
-
              width: 100%;
              height: 100%;
-    
-            /* border: 3px solid rgb(87, 41, 223);  */
-    
-    
+
           }
           .smile{
             height:45%;
             width: 100%;
-        
             display: flex;
             justify-content: center; 
             align-items: center;
 
-
          }
                #fondo_smile{
                  height: 80%;
+
                }
-        .encabezado{
+          .encabezado{
             height: 20%;
 
-        }
+          }
+          .encabezado p{
+            font-size: 2.2rem;
+      
+          } 
+
     .studio{
         height: 65%;
         width: 100%;
@@ -350,17 +392,18 @@
     
           }
         /* contact */
+
         .direccionh1{ 
             font-size: 35px;
     
           }
-        .direccion h3{
-            font-size: 16px;
-
+          #form{
+            height: 100%;
+            width: 60%;
           }
   }
   /* ------ moviles ------ */
-@media(max-width:393px){
+  @media(max-width:393px){
     
      .estudio_portfolio{
         width: 100%;
@@ -383,7 +426,7 @@
      
           }
           .texto h1{ 
-            font-size: 32px;
+            font-size: 30px;
     
           }
           .texto h3{
@@ -410,15 +453,34 @@
             line-height: 16px;
     
           }
-        /* contact */
-        .direccion h1{ 
-            font-size: 32px;
-    
-          }
+        /* CONTACT */
+        .formulario{
+          width: 100%;
+
+        }
+         #form{
+         width: 65%;
+       }
+        .direccion h1{
+          font-size: 30px;
+        }
         .direccion h3{
-            font-size: 14px;
-            line-height: 18px;
-          }
+          line-height: normal;
+  
+        }
+        .field label{
+          font-size: 12px;
+
+       }
+       .field input{
+          font-size: 10px;
+
+       }
+       #button{
+          font-size: 12px;
+          width: 60%;
+
+        }
   }
   @media(max-width:375px){
     
@@ -442,10 +504,7 @@
            width: 85%;
     
          }
-         .texto h1{ 
-           font-size: 30px;
-   
-         }
+      
          .texto h3{
            font-size: 14px;
            line-height: 16px;
@@ -471,14 +530,7 @@
         
               }
         /* contact */
-        .direccion h1{ 
-            font-size: 30px;
-    
-          }
-        .direccion h3{
-            font-size: 14px;
-            line-height: 16px;
-          }
+       
  }
   @media(max-width:360px){
            
@@ -519,10 +571,7 @@
     
           }
           /* contact */
-          .direccion h3{
-            font-size: 12px;
-            line-height: 16px;
-          }
+        
   }
   @media(max-width:280px){
 
@@ -582,10 +631,7 @@
             font-size: 25px;
     
           }
-          .direccion h3{
-            font-size: 10px;
- 
-          }
+        
   }
 
 
