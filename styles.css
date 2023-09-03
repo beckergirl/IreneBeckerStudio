@@ -17,8 +17,7 @@
  body{
      
      width: 100%;
-     height: 100vh;
-     
+     height: 115vh;
      background-color: rgb(246, 186, 247);
      display: flex;
      flex-direction: column;
@@ -30,9 +29,8 @@
  .navbar{
     height: 15%;
     width: 100%;
-
+   /*  background-color: rgb(246, 186, 247); */
    /* border: 3px solid rgb(130, 99, 225);  */
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -98,13 +96,13 @@
     justify-content: center;
     align-items: center;
 
-    /* border: 3px solid rgb(199, 223, 41);  */
+   /*  border: 3px solid rgb(199, 223, 41);  */
  }
       #logo{
          height: 100%;
       }
       #smile{
-         height: 95%;
+         height: 90%;
       }
       #enlace{
          width: 40%;
@@ -119,12 +117,24 @@
       }
 
  /* ---------INDEX-------(cuerpo)------- */
- .smile{
-   scroll-behavior: auto;
-    height: 65%;
-    width: 40%;
+ .body_2{
+   height: 75%;
+    width: 100%;
 
-   /*  border: 3px solid rgb(0, 4, 255); */
+  /*  border: 3px solid rgb(255, 0, 0); */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .smile{
+/*    scroll-behavior: auto; */
+    height: 70%;
+    width: 50%;
+
+  /*  border: 3px solid rgb(174, 255, 0); */
 
     display: flex;
     flex-direction: column;
@@ -133,15 +143,21 @@
     transition: transform 0.8s; /* transición suave */
  }
        #fondo_smile{
-         height: 90%;
+         height: 95%;
+        /*  border: 3px solid rgb(213, 213, 233); */
        }
        .smile:hover{
          transform: rotate(360deg);/* gira */
 
        }
-       .encabezado{
-         height: 15%;
-         width: 100%;
+   .encabezado{
+      height: 30%;
+      width: 100%;
+/*       border: 3px solid rgb(0, 4, 255); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
 
        }
          .encabezado:hover{
@@ -154,11 +170,7 @@
             color:#091DD0;
             font-family: 'Raleway',thin,sans-serif;
             font-weight: 300;
-            font-size: 2.5rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+            font-size: 3rem;
 
          }
               #diseño{
@@ -171,31 +183,46 @@
 
  /* footer */
  footer{
-    height: 5%;
+    height: 10%;
     width: 100%;
-
     /* border: 3px solid rgb(0, 4, 255);  */
-
+   /*  background-color: rgb(246, 186, 247);  */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: left;
+    align-items: center;
    
  }
- footer p{
-    color:#091DD0;
-    font-family: 'Raleway',thin,sans-serif;
-    font-weight: 400;
-    font-size: 0.5rem;
+      .pie_pagina{
+         width: 45%;
+         height: 90%;
+         /* border: 3px solid rgb(0, 4, 255);   */
+      }
+      footer p{
+         color:#091DD0;
+         font-family: 'Raleway',thin,sans-serif;
+         font-weight: 400;
+         font-size: 0.5rem;
+      }
+      #footer_img{
+         height: 90%;
+         width: auto;
+         display: flex;
+         justify-content: center;
+      }
+      #copy{
+         display: flex;
+         justify-content: flex-start;
+         align-items: flex-end;
+         
+      } 
 
-    padding-left: 3%;
- }
 
  /* ---------PÁGINA STUDIO---------- */
  
  /* PORTADA */
  .studio{
-    height: 80%;
+    height: 75%;
     width: 100%;
 
    /*  border: 3px solid rgb(0, 4, 255);  */
@@ -225,9 +252,9 @@
         color:#091DD0;
         font-family: 'Raleway',thin,sans-serif;
         font-weight: 300;
-        font-size: 3rem;
+        font-size: 45px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         text-align: center; 
         text-shadow: 2px 2px 0px rgba(82, 191, 242, 0.5),
@@ -241,8 +268,8 @@
 
         color:#091DD0;
         font-family: 'Raleway',thin,sans-serif;
-        font-weight: 400;
-        font-size: 20px;
+        font-weight: 300;
+        font-size: 18px;
 
         align-self: center;
 
@@ -251,18 +278,18 @@
       }
       .imagen{
         height: 40%;
-        width: 65%;
+        width: 70%;
 
         /* border: 3px solid rgb(120, 88, 214);  */
 
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
       }
       .foto{
         height: 100%;
-        width: 35%;
+        width: 30%;
 
         /* border: 3px solid rgb(120, 88, 214);  */
 
@@ -271,13 +298,14 @@
         align-items: center;
       }
          #irene{
-            height: 90%;
+            height: 80%;
+      
          }
       .frase{
         height: 100%;
-        width: 65%;
+        width: 50%;
 
-        /* border: 3px solid rgb(0, 0, 0);  */
+        /* border: 3px solid rgb(0, 0, 0);  */ 
 
         display: flex;
         flex-direction: column;
@@ -286,16 +314,18 @@
 
         color:#091DD0;
         font-family: 'Raleway',thin,sans-serif;
-       /*  font-weight: 100; */
-        font-size: 12px;
-        font-style: italic;
-
 
       }
-      .cursiva{
-         font-style: normal;
-         font-weight: lighter;
-      }
+           .frase h2{
+              font-style: italic;
+              font-weight: 200;
+              font-size: 16px;
+
+            }
+           .cursiva{/* "firma" */
+              font-style: normal;
+              font-weight: 300;
+            }
 /* ---------PÁGINA CONTACT---------- */
  
  /* PORTADA */
@@ -303,7 +333,7 @@
    height: 80%;
    width: 100%;
 
-  /*  border: 3px solid rgb(0, 4, 255);  */
+/*   border: 3px solid rgb(0, 4, 255);   */
 
    display: flex;
    flex-direction: column;
@@ -314,8 +344,9 @@
    height: 25%;
    width: 60%;
 
-   /* border: 3px solid rgb(70, 15, 234);  */  
+ /*   border: 3px solid rgb(70, 15, 234);  */ 
  }
+
       .direccion h1{ /* CONTACT */
           height: 60%;
           width: 100%;
@@ -326,7 +357,7 @@
          font-size: 3rem;
          display: flex;
          justify-content: center;
-         align-items: center;
+         align-items: flex-end;
          text-align: center; 
          text-shadow: 2px 2px 0px rgba(82, 191, 242, 0.5),
                      -2px -2px 0px rgba(252, 25, 169, 0.5),
@@ -367,7 +398,6 @@
          flex-direction: column;
          justify-content: center;
          align-items: center;
-
        }
        .field{
          height: 20%;
@@ -392,7 +422,6 @@
                align-items: center;
                background-color:  rgb(246, 186, 247);
                border: none;
-               text-decoration: none;
                border-bottom: 5px solid #091DD0; 
 
             }
@@ -412,6 +441,7 @@
                       #mensaje{
                         height: 25%;
                         width: 100%;
+                        background-color:  rgb(246, 186, 247);
 
                      }
              
@@ -435,253 +465,80 @@
                border-radius: 20px;
 
              }
+/* ---------PÁGINA PINTURA---------- */
+#pie{
+   background-color: rgb(246, 186, 247);
 
-      /* -------- ANTIGUO RESPONSIVE / YA SE BORRARÁ AL FINAL */
-      
-    /*   @media(max-width:896px){
-        .navbar a{
-            font-size: 1.4rem;
-         }
-         .studio{
-            width: 100%;
-            height: 150vh;
-            
-         }
-         .texto{
-            width: 80%;
-         }
-                 .texto h1{ 
-                     height: auto;
-                     width: 100%;
-                     font-size: 30px;
-                     display: flex;
-                     justify-content: left;
-                     align-items: left; 
-                  }
-                  .texto h3{
-                     width: 100%;
-                     font-size: 14px;
-                
-                  }
-         .imagen{
-            height: auto;
-            width: 80%;
-         }
-                  .foto{
-                     height: 100%;
-                     width: 20%;
-                     background-size: 25%;
-                  }
-                  .frase{
-                     height: 90%;
-                     width: 80%;
-                     font-size: 8px;
-                  }
-         }
-        
-         @media(max-width:700px){
-            .navbar a{
-                font-size: 1.2rem;
-             }
-            }
-         @media(max-width:667px){
-                  .studio{
-                     width: 100%;
-                     height: 150vh;
-                     
-                  }
-                  .texto{
-                     width: 80%;
-                  }
-                          .texto h1{ 
-                              height: auto;
-                              width: 100%;
-                              font-size: 25px;
-                              display: flex;
-                              justify-content: left;
-                              align-items: left; 
-                           }
-                           .texto h3{
-                              width: 100%;
-                              font-size: 12px;
-                         
-                           }
-                  .imagen{
-                     height: auto;
-                     width: 80%;
-                  }
-                           .foto{
-                              height: 100%;
-                              width: 40%;
-                              background-size: 20%;
-                           }
-                           .frase{
-                              height: 90%;
-                              width: 60%;
-                              font-size: 7px;
-                           }
-   } */
-               
-         
-      /*    @media(max-width:500px){ 
-               
-                 .navbar{
-                  height: 40%;
-                  width: 100%;
-                  flex-direction: column;
-                  text-align: left;
-                  align-items: center;
-               } */
-      
-                  /* animation: changeColor 15s infinite linear; */
-               
-               /* animación */
-           /*   @keyframes changeColor{
-               0%{
-                   border-radius:rgb(246, 186, 247);
-               }
-               20%{
-                  border-radius:#FAFF04;
-               }
-               60%{
-                  border-radius:orange;
-               }
-               80%{
-                  border-radius: #96f1d6;
-               }
-               100%{
-                  border-radius: rgb(246, 186, 247);
-               }
-           }  */
-               /* .navbar a{
-                  font-size: 2rem;
-   
-               }
-               .studio{
-                   height: 55%;
-                   width: 100%;
-                   display: flex;
-                   flex-direction: column;
-                   justify-content: center;
-                   align-items: center;
-
-                
-               }
-                     .texto{
-                        height: 60%;
-                        width: 90%;
-                     }
-                             .texto h1{ 
-                                 height: 30%;
-                                 width: 80%;
-                                 font-size: 40px;
-                              }
-                              .texto h3{
-                                 height: 70%;
-                                 width: 80%;
-                                 font-size: 14px;
-                                 display: flex;
-                                 align-items: center;
-                              }
-                     .imagen{
-                        height: 40%;
-                        width: 90%;
-                     }
-                              .foto{
-                                 height: 100%;
-                                 width: 40%;
-                                 background-size: 60%;
-                              }
-                              .frase{
-                                 height: 90%;
-                                 width: 60%;
-                                 font-size: 9px;
-                              }
-      } */
-        
-     /*  @media(max-width:380px){
-         .studio{
-            height: 55%;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-              .texto{
-                 height: 70%;
-                 width: 90%;
-
-              }
-                      .texto h1{ 
-                          height: 30%;
-                          width: 95%;
-                          font-size: 30px;
-                       }
-                       .texto h3{
-                          height: 70%;
-                          width: 95%;
-                          font-size: 12px;
-                          display: flex;
-                          align-items: center;
-                       }
-              .imagen{
-                 height: 30%;
-                 width: 90%;
-              }
-                       .foto{
-                          height: 100%;
-                          background-size: 45%;
-                       }
-                       .frase{
-                          height: 100%;
-                          font-size: 8px;
-                          font-weight: lighter;
-                       }
-} */
-
-/* @media(max-width:360px){ 
-   .navbar a{
-      font-size: 1.8rem;
-
-   }
-} */
-
-   /* PÁGINAS */
- /*   .studio{
-      height: 55%;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
-        .texto{
-           height: 70%;
-           width: 90%;
-
-        }
-                .texto h1{ 
-                    height: 30%;
-                    width: 95%;
-                    font-size: 30px;
-                 }
-                 .texto h3{
-            
-                    font-size: 11px;
-               
-                 }
-      
-                 .foto{
-                  
-                    background-size: 42%;
-                 }
-                 .frase{
-                    font-size: 7px;
-            
-                 }
 }
-  */
+       .pintura{
+         width: 100%;
+         height: 75%;/* */ 
+         background-color: white;
+         /* border: 3px solid rgb(5, 207, 234); */
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+       }
+         .titulo{
+               height: 40%;
+               width: 70%;
 
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+
+         }
+         
+            .titulo h1{ /* titulo PINTURA */
+               height: 50%;
+               width: 100%;
+
+              /*  border: 3px solid rgb(238, 245, 246); */
+
+               color:#091DD0;
+               font-family: 'Raleway',thin,sans-serif;
+               font-weight: 300;
+               font-size: 3rem;
+               display: flex;
+               justify-content: flex-start;/* CENTRAR???  */
+               align-items: center;
+               text-align: center; 
+               text-shadow: 2px 2px 0px rgba(82, 191, 242, 0.5),
+                           -2px -2px 0px rgba(252, 25, 169, 0.5),
+                           -4px -4px 0px rgb(250, 255,4, 0.5); 
+            }
+            .titulo h3{
+               height: 50%;
+               width: 100%;
+
+               color:#091DD0;
+               font-family: 'Raleway',thin,sans-serif;
+               font-weight: 400;
+               font-size: 20px;
+       
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               text-align: center; 
+       
+               /* border: 3px solid rgb(246, 238, 238);  */
+       
+             }
+         .cuadros{
+            width: 60%;
+            height: 70%;
+            
+          /*   border: 3px solid rgb(242, 161, 10);  */
+
+            background-image: url(A4\ -\ 10.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 80%;
+
+            margin: 1%;
+      
+         }
 
 
