@@ -20,20 +20,19 @@
 
     }
     .direccion h1{ /* titulo CONTACT */
-      font-size: 40px;
+      font-size: 38px;
+
+    }
+    .titulo h1{ /* titulo PINTURA */
+      font-size: 38px;
 
     }
     
      
     #irene{
-        height: 82%;
-        
-    }
-    .frase{
-        width: 60%;
-        font-size: 11px;
-        
-    }  
+      height: 60%;/* aquí */
+
+   }
     #button{
       width: 50%;
 
@@ -42,6 +41,7 @@
 }
 
 @media(max-width:1000px){
+
     /* navbar */
    .navbar a{
         font-size: 24px;
@@ -53,11 +53,7 @@
 
       }
       .texto h3{
-        font-size: 18px;
-
-      }
-      .imagen{
-        width: 70%;
+        font-size: 17px;
 
       }
       /* titulo CONTACO */
@@ -65,31 +61,35 @@
         font-size: 36px;
 
       }
+      .titulo h1{ /* titulo PINTURA */
+        font-size: 36px;
+  
+      }
+      .titulo h3{
+        font-size: 16px;
+
+      }
+      .frase h2{
+          font-size: 12px;
+        }
+     /*  #irene{
+        height: 55%;
+  
+     } */
     }
-   /*  @media(max-width:912px){
-        #smile{
-            height: 85%;
-         }
-        .navbar a{
-            font-size: 28px;
-    
-         }
-         .texto h1{ 
-            font-size: 50px;
-    
-          }
+     @media(max-width:914px){
+        
          .texto h3{
             width: 100%;
-            font-size: 20px;
+            font-size: 16px;
     
         }
-        .frase{
-            width: 60%;
-            font-size: 12px;
-            
+        .encabezado p{
+          font-size: 2.3rem;
+    
         } 
          
-      } */
+      }
     @media(max-width:896px){
         #smile{
             height: 92%;
@@ -105,14 +105,14 @@
           }
          .texto h3{
             width: 100%;
-            font-size: 16px;
+            font-size: 15px;
     
         }
-        .frase{
-            width: 65%;
-            font-size: 10px;
-            
-        } 
+        .frase h2{
+          font-size: 12px;
+        }
+
+      
         /* titulo CONTACT */
         .formulario{
           width: 80%;
@@ -141,6 +141,10 @@
           font-size: 14px;
 
         }
+        .titulo h1{ /* titulo PINTURA */
+          font-size: 32px;
+    
+        }
          
       }
 
@@ -160,14 +164,8 @@
      
      .texto h3{
         width: 100%;
-        font-size: 15px;
 
     }
-    .frase{
-        width: 65%;
-        font-size: 9px;
-        
-    } 
  /*    .encabezado p{
       font-size: 2.3rem;
 
@@ -181,6 +179,14 @@
       border-bottom: 3px solid #091DD0; 
 
    }
+   .titulo h1{ /* titulo PINTURA */
+    font-size: 30px;
+
+  }
+  .titulo h3{
+    font-size: 15px;
+
+  }
      
   }
   @media(max-width:750px){
@@ -189,6 +195,10 @@
         font-size: 20px;
 
      }
+     .encabezado p{
+      font-size: 1.8rem;
+
+    } 
      .texto h1{ /* titulo EL ESTUDIO */
         font-size: 28px;
 
@@ -197,14 +207,11 @@
         
         font-size: 12px;
     
-
     }
-    .frase{
-        width: 70%;
-        font-size: 8px;
+    #irene{
+      height: 65%;/* aquí */
 
-        
-    }
+   }
     /* CONTACT */
     .direccion h1{ 
       font-size: 28px;
@@ -213,6 +220,14 @@
    .direccion h3{
     font-size: 10px;
   
+  }
+  .titulo h1{ /* titulo PINTURA */
+    font-size: 28px;
+
+  }
+  .titulo h3{
+    font-size: 12px;
+
   }
   }
   @media(max-width:700px){
@@ -229,17 +244,9 @@
 /* ------ moviles ------ */
 @media(max-width:600px){
   body{
-    height: 110vmax;/* scroll */
+    height: 120vmax;/* scroll */
     width: auto;
   }
-    #n{
-        height: 30%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
     .navbar{
         height: 30%;
         display: flex;
@@ -312,24 +319,25 @@
              height: 100%;
 
           }
+          .body_2{
+            height: 60%;
+             width: 100%;
+         
+          }
           .smile{
-            height:45%;
-            width: 100%;
-            display: flex;
-            justify-content: center; 
-            align-items: center;
-
-         }
+             height: 65%;
+             width: 100%;
+          }
                #fondo_smile{
-                 height: 80%;
+                 height: 85%;
 
                }
           .encabezado{
-            height: 20%;
+            height: 35%;
 
-          }
+          } 
           .encabezado p{
-            font-size: 2.2rem;
+            font-size: 2.5rem;
       
           } 
 
@@ -365,35 +373,38 @@
 
             /* border: 3px solid rgb(240, 238, 246);  */
     
-            font-size: 16px;
+            font-size: 15px;
           }
-          .imagen{
+          .imagen{/* REPASADO----------------------------------------------- */
             height: 40%;
             width: 70%;
 
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
 
-           /*  border: 3px solid rgb(241, 144, 75);  */
           }
           .foto{
-            height: 45%;
-            width: 100%;
+            height: 100%;
+            width: 30%;
+
           }
              #irene{
-                height: 90%;
+                width: 90%;
+                height: auto;
              }
           .frase{
-            height: 55%;
-            width: 100%;
-            font-size: 9px;
-
-            /* border: 3px solid rgb(75, 241, 105);  */
+            height: 100%;
+            width: 70%;
     
+          }
+          .frase h2{
+            font-size: 12px;
+            margin-left: 3%;
+
           }
         /* contact */
 
-        .direccionh1{ 
+        .direccion h1{ 
             font-size: 35px;
     
           }
@@ -401,6 +412,21 @@
             height: 100%;
             width: 60%;
           }
+          .titulo h1{ /* titulo PINTURA */
+            font-size: 35px;
+      
+          }
+          .titulo h3{
+            font-size: 16px;
+    
+          }
+          .pintura{/* ver */
+            height: 65%;
+            width: 100%;
+            
+        /*   border: 3px solid rgb(255, 0, 204);  */
+            
+        }
   }
   /* ------ moviles ------ */
   @media(max-width:393px){
@@ -421,7 +447,7 @@
         
          }
          .texto{
-            height: 50%;
+            height: 60%;
             width: 85%;
      
           }
@@ -433,26 +459,14 @@
             font-size: 14px;
             line-height: 18px;
           }
-          .imagen{
-            height: 40%;
+          #irene{
             width: 80%;
-
-            display: flex;
-            flex-direction: column;
-          }
-          .foto{
-            height: 50%;
-            width: 100%;
-          }
-             #irene{
-                height: 80%;
-             }
-          .frase{
-            
-            font-size: 8px;
-            line-height: 16px;
-    
-          }
+            height: auto;
+         }
+         .frase h2{
+          font-size: 11px;
+         }
+        
         /* CONTACT */
         .formulario{
           width: 100%;
@@ -481,6 +495,14 @@
           width: 60%;
 
         }
+        .titulo h1{ /* titulo PINTURA */
+          font-size: 30px;
+    
+        }
+        .titulo h3{
+          font-size: 14px;
+  
+        }
   }
   @media(max-width:375px){
     
@@ -492,6 +514,10 @@
        width: 100%;
        
      }
+     .encabezado p{
+      font-size: 2.2rem;
+
+    } 
    
           
    .studio{
@@ -509,26 +535,10 @@
            font-size: 14px;
            line-height: 16px;
          }
-         .imagen{
-           height: 40%;
-           width: 80%;
-
-           display: flex;
-           flex-direction: column;
+         .frase h2{
+          font-size: 10px;
          }
-         .foto{
-           height: 50%;
-           width: 100%;
-         }
-            #irene{
-               height: 80%;
-            }
-            .frase{
-            
-                font-size: 7px;
-                line-height: 15px;
-        
-              }
+         
         /* contact */
        
  }
@@ -553,21 +563,10 @@
             width: 80%;
 
             display: flex;
-            flex-direction: column;
+            /* flex-direction: column; */
           }
-          .foto{
-            height: 45%;
-            width: 100%;
-          }
-             #irene{
-                height: 80%;
-             }
-          .frase{
-            height: 55%;
-            font-size: 8px;
-            line-height: 16px;
-
-            /* border: 3px solid rgb(75, 241, 105);  */
+          .titulo h3{
+            font-size: 12px;
     
           }
           /* contact */
@@ -600,38 +599,27 @@
             font-size: 10px;
  
           }
-          .imagen{
-            height: 40%;
-            width: 80%;
-
-            display: flex;
-            flex-direction: column;
-
-           /* border: 3px solid rgb(241, 144, 75);  */
-          }
-          .foto{
-            height: 45%;
-            width: 100%;
-
-           /*  border: 3px solid rgb(117, 75, 241); */
-          }
-             #irene{
-                height: 80%;
-             }
-          .frase{
-            height: 55%;
-            font-size: 8px;
-            line-height: 16px;
-
-            /* border: 3px solid rgb(75, 241, 105);  */
-    
-          }
-          /* contact */
+  /* contact */
           .direccion h1{ /* titulo EL ESTUDIO */
             font-size: 25px;
     
           }
+          .titulo h1{ /* titulo PINTURA */
+            font-size: 25px;
+      
+          }
+          .titulo h3{
+            font-size: 10px;
+    
+          }
+          .encabezado p{
+            font-size: 2rem;
+      
+          } 
         
   }
+
+
+
 
 
