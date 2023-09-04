@@ -19,6 +19,7 @@
      width: 100%;
      height: 115vh;
      background-color: rgb(246, 186, 247);
+     /* background-color:#F5F5EC; */
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -30,7 +31,7 @@
     height: 15%;
     width: 100%;
    /*  background-color: rgb(246, 186, 247); */
-   /* border: 3px solid rgb(130, 99, 225);  */
+   /*  border-bottom: 2px solid #091DD0;  */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -98,6 +99,9 @@
 
    /*  border: 3px solid rgb(199, 223, 41);  */
  }
+      #l{
+         height: 100%;
+      }
       #logo{
          height: 100%;
       }
@@ -216,6 +220,12 @@
          align-items: flex-end;
          
       } 
+      #email{
+         display: flex;
+         justify-content: flex-end;
+         align-items: flex-end;
+         
+      } 
 
 
  /* ---------PÁGINA STUDIO---------- */
@@ -317,14 +327,21 @@
 
       }
            .frase h2{
-              font-style: italic;
+              /* font-style: italic; */
               font-weight: 200;
               font-size: 16px;
+
+            }
+            .linea{
+               width: 20%;
+               border-top: solid 2px#091DD0;
 
             }
            .cursiva{/* "firma" */
               font-style: normal;
               font-weight: 300;
+             /*  border-top: solid 2px#091DD0; */
+
             }
 /* ---------PÁGINA CONTACT---------- */
  
@@ -540,5 +557,3 @@
             margin: 1%;
       
          }
-
-
