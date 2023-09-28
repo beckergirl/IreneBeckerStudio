@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="white">
  <!-- nav -->
  <nav class="navbar" id="barra_navegacion">
         <div class="estudio_portfolio">
@@ -41,22 +41,97 @@
     <div class="titulo">
 
       <h1>PINTURA</h1>
-      <h3>Selección de obra pictórica de 2008 a 2019.<br>
-      <br>#ENPROCESO</h3>
+      <h3>Selección de obra pictórica de 2008 a 2019.</h3>
 
     </div>
+    <div class="contenedor_cuadros"><!-- CUADROS EN SLIDE -->
+            <!-- Botones de navegación -->
+            <a class="prev" onclick="plusSlides(-1)">ANTERIOR</a>
+            <!-- CUADROS / diapositivas -->
+            <div class="cuadros">
+                <img src="PORTADA.png" alt="Imagen 1">
+            </div>
+    
+            <div class="cuadros">
+               <img src="cuadros II-1.png" alt="Imagen 2">
+            </div>
+    
+            <div class="cuadros">
+               <img src="cuadros II.png" alt="Imagen 3">
+            </div>
 
-    <div class="cuadros">
+            <div class="cuadros">
+               <img src="cuadros III.png" alt="Imagen 4">
+             </div>
 
-      <!--   <img src="A4 - 10.jpg"> -->
+            <div class="cuadros">
+               <img src="cuadros III-2.png" alt="Imagen 5">
+            </div>
+
+            <div class="cuadros">
+              <img src="cuadros IV.png" alt="Imagen 6">
+             </div>
+    
+             <!-- Botones de navegación -->
+             <a class="next" onclick="plusSlides(1)">SIGUIENTE</a>
+    </div>
+    
+    <!-- Puntos de navegación --> <!-- tyle="text-align: center;" -->
+    <div>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+    
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+    
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+    
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+    
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("cuadros");
+            let dots = document.getElementsByClassName("dot");
+    
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+    
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+    
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+    
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    
  
     </div>
-  </div><!-- cierra pintura -->
+
 
   <!-- footer -->
   <footer id="pie">
     <p class="pie_pagina" id="copy">© IRENE BECKER STUDIO | 2023</p>
-    <img class="pie_pagina"id="footer_img"src="LOGO IRENE.png" href="index.html">
+       <a href="index.html" class="pie_pagina"id="footer_img"><img src="LOGO IRENE.png" href="index.html"></a>
     <p class="pie_pagina" id=""></p><!-- que poner? -->
   </footer>
 
