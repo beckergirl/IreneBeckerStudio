@@ -585,7 +585,7 @@
 
                   }
                   .contenedor_cuadros a img{
-                     width: 25%;
+                     /* width: 25%; */
                      display: flex;
                      justify-content: center;
                      margin: 0px auto;
