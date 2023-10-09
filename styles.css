@@ -440,7 +440,7 @@
                align-items: center;
                background-color:  rgb(246, 186, 247);
                border: none;
-               border-bottom: 5px solid #091DD0; 
+               border-bottom: 4px solid #091DD0; 
 
             }
             .field input{
@@ -486,8 +486,8 @@
              }
 /* ---------PÁGINA PINTURA---------- */
 #white{ /* fondo blanco para todo (navbar y footer) */
-   background-color: rgb(255, 255, 255);
- /*   height: 135vh; */
+   background-color: rgb(243, 218, 244);
+
 }
        .pintura{
          width: 100%;
@@ -499,8 +499,9 @@
          justify-content: center;
          align-items: center;
        }
+       
          .titulo{
-               height: 25%;
+               height: 12.5%; /* antes 25% pero pongo h3 debajo */
                width: 70%;
 
                display: flex;
@@ -583,10 +584,15 @@
                      /* border: solid 2px red; */
 
                   }
+                  .contenedor_cuadros a img{
+                     width: 25%;
+                     display: flex;
+                     justify-content: center;
+                     margin: 0px auto;
+
+                  }
                         .contenedor_cuadros a:hover{
                            font-weight: 500;
                            font-size: 12px;
             
                         }
-
-      
