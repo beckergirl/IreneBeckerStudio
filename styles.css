@@ -230,7 +230,9 @@
 
 
  /* ---------PÁGINA STUDIO---------- */
- 
+  #studio{
+   background-color: rgb(243, 218, 244);
+ }
  /* PORTADA */
  .studio{
     height: 75%;
