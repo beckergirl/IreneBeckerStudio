@@ -15,6 +15,8 @@
 }
  
  body{
+   overflow-x: auto;
+   overflow-y:scroll;
      
      width: 100%;
      height: 115vh;
@@ -38,7 +40,9 @@
     justify-content: space-around;
     align-content: center;
     text-align: center;
+
  }
+
  .navbar a{
     
     color:#091DD0;
@@ -46,7 +50,6 @@
     font-weight: 300;
     font-size: 25px;
     text-align: center;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,44 +64,38 @@
 
 /* prueba para que el responsive sea más coherente */
  .estudio_portfolio{
-   width: 40%;
+   width: 42%;
    height: 100%;
 
    display: flex;
    flex-direction: row;
-   justify-content: space-around;
-
-
+   justify-content: space-between;
   /*  border: 3px solid rgb(41, 223, 87); */
 
  }
  .contacto_pintura{
-   width: 40%;
+   width: 42%;
    height: 100%;
-   
    /* border: 3px solid rgb(41, 223, 87); */
-
    display: flex;
    flex-direction: row;
-   justify-content: space-around;
-   
+   justify-content: space-between;
+ 
  }
  
  .pestañas{
     width: 50%;
     height: 100%;
-    /* border: 3px solid rgb(87, 41, 223);  */
+   /*  border: 3px solid rgb(87, 41, 223);   */
 
  }
  .logotipo{
-    width: 20%;
+    width: 16%;
     height: 100%;
 
     display: flex;
     justify-content: center;
     align-items: center;
-
-   /*  border: 3px solid rgb(199, 223, 41);  */
  }
       #l{
          height: 100%;
@@ -120,7 +117,7 @@
          align-items: center;
 
       }
-
+   
  /* ---------INDEX-------(cuerpo)------- */
  .body_2{
    height: 75%;
@@ -230,10 +227,11 @@
 
 
  /* ---------PÁGINA STUDIO---------- */
-  #studio{
+ 
+ /* PORTADA */
+ #studio{
    background-color: rgb(243, 218, 244);
  }
- /* PORTADA */
  .studio{
     height: 75%;
     width: 100%;
@@ -440,11 +438,15 @@
                display: flex;
                justify-content: flex-start;
                align-items: center;
-               background-color:  rgb(246, 186, 247);
+               background-color: rgb(246, 186, 247);
                border: none;
                border-bottom: 4px solid #091DD0; 
 
             }
+                 .field label:hover{
+                      border-bottom: 1px solid #091DD0; 
+
+                  }
             .field input{
                height: 50%;
                width: 100%;
@@ -475,7 +477,6 @@
                font-weight: 600;
                font-size: 18px;
                border: none;
-
                display: flex;
                justify-content: center;
                cursor: pointer;
@@ -488,7 +489,8 @@
              }
 /* ---------PÁGINA PINTURA---------- */
 #white{ /* fondo blanco para todo (navbar y footer) */
-   background-color: rgb(243, 218, 244);
+   /* background-color: rgb(243, 218, 244); */
+   background-color: white;
 
 }
        .pintura{
@@ -577,19 +579,15 @@
                      width: 15%;
                      display: flex;
                      justify-content: center;
-                     color:#091DD0;
-                     font-family: 'Raleway',thin,sans-serif;
-                     font-weight: 400;
-                     font-size: 10px;
                      cursor: pointer;
                      transform: rotate(90deg);
-                     /* border: solid 2px red; */
-
+                    /*  border: solid 2px red; */
                   }
                   .contenedor_cuadros a img{
-                     /* width: 25%; */
+                    /*  width: 25%; */
                      display: flex;
                      justify-content: center;
+                     align-items: center;
                      margin: 0px auto;
 
                   }
@@ -598,3 +596,18 @@
                            font-size: 12px;
             
                         }
+/* -----------portfolio---------- */
+         .contenedor_trabajos{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            /* border: solid 3px black; */
+            width: 80%;
+            height: 75%;
+         }
+         .contenedor_trabajos img{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+         }

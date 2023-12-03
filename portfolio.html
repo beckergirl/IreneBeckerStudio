@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, user-scalable=no" /><!-- viewport  para el responsive-->
-    <title>IRENE BECKER | PINTURA</title>
+    <title>IRENE BECKER | PORTFOLIO</title>
     <link rel="icon" href="LOGOS/SMILE.png" sizes="16x16 32x32" type="image/png">
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="styles_responsive.css" media="screen" /><!-- responsive CSS -->
@@ -14,13 +14,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body id="white">
+<body style="background:white;">
  <!-- nav -->
  <nav class="navbar" id="barra_navegacion">
         <div class="estudio_portfolio">
             <a class="pestañas" href="studio.html">EL ESTUDIO</a>
 
-            <a class="pestañas" href="https://www.behance.net/irenebecker"target="_blank">PORTFOLIO</a><!-- página diferente -->
+            <a class="pestañas" href="#"target="_blank">PORTFOLIO</a><!-- estamos aquí -->
         </div>
         <div class="logotipo">
         
@@ -41,57 +41,32 @@
 
     <div class="titulo">
 
-      <!-- <h1>PINTURA</h1> -->
-      <!-- <h3>Selección de obra pictórica de 2008 a 2019.</h3> -->
-
+      <h1>PORTFOLIO</h1>
+ 
     </div>
+    <div class="contenedor_trabajos"><!-- CUADROS EN SLIDE -->
+        <!-- Botones de navegación -->
+        <a class="prev" onclick="plusSlides(-1)"><span><img src="LOGOS/previus.png"></span></a>
+        <!-- CUADROS / diapositivas -->
+        <div class="cuadros">
+            <img src="PORTFOLIO/deassín.png" alt="Imagen 1">
+        </div>
 
-    <div class="contenedor_cuadros"><!-- CUADROS EN SLIDE -->
-            <!-- Botones de navegación -->
-            <a class="prev" onclick="plusSlides(-1)"><span><img src="LOGOS/previus.png"></span></a>
-            <!-- CUADROS / diapositivas -->
-            <div class="cuadros">
-                <img src="CUADROS/PORTADA.png" alt="Imagen 1">
-            </div>
-    
-            <div class="cuadros">
-               <img src="CUADROS/HAIR.png" alt="Imagen 2">
-            </div>
-    
-            <div class="cuadros">
-               <img src="CUADROS/B&W_FACE.png" alt="Imagen 3">
-            </div>
+        <div class="cuadros">
+           <img src="PORTFOLIO/btehr.png" alt="Imagen 2">
+        </div>
 
-            <div class="cuadros">
-               <img src="CUADROS/CREAMEYE.png" alt="Imagen 4">
-             </div>
+        <div class="cuadros">
+           <img src="PORTFOLIO/maria_antonieta.png" alt="Imagen 3">
+        </div>
 
-            <div class="cuadros">
-               <img src="CUADROS/DARIA.png" alt="Imagen 5">
-            </div>
+        <div class="cuadros">
+           <img src="PORTFOLIO/cuadros.png" alt="Imagen 4">
+         </div>
 
-            <div class="cuadros">
-              <img src="CUADROS/PILLING.png" alt="Imagen 6">
-             </div>
-
-            <div class="cuadros">
-              <img src="CUADROS/EYE.png" alt="Imagen 7">
-            </div>
-
-            <div class="cuadros">
-              <img src="CUADROS/CARA.png" alt="Imagen 8">
-            </div>
-
-            <div class="cuadros">
-              <img src="CUADROS/RED_FACE.png" alt="Imagen 9">
-            </div>
-    
-            <div class="cuadros">
-              <img src="CUADROS/ART.png" alt="Imagen 10">
-            </div>
-             <!-- Botones de navegación -->
-             <a class="next" onclick="plusSlides(1)"><span><img src="LOGOS/next.png"></span></a>
-    </div>
+         <!-- Botones de navegación -->
+         <a class="next" onclick="plusSlides(1)"><span><img src="LOGOS/next.png"></span></a>
+</div>
     
     <!-- Puntos de navegación --> <!-- tyle="text-align: center;" -->
     <div>
@@ -99,19 +74,9 @@
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
         <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-        <span class="dot" onclick="currentSlide(6)"></span>
-        <span class="dot" onclick="currentSlide(7)"></span>
-        <span class="dot" onclick="currentSlide(8)"></span>
-        <span class="dot" onclick="currentSlide(9)"></span>
-        <span class="dot" onclick="currentSlide(10)"></span>
-    </div>
-    <div class="titulo">
-
-      <h3>Selección de obra pictórica de 2008 a 2019.</h3>
 
     </div>
-    
+
     <script>
         let slideIndex = 1;
         showSlides(slideIndex);

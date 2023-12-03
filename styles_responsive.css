@@ -229,8 +229,9 @@
     font-size: 12px;
 
   }
-    .contenedor_cuadros a img{
+  .contenedor_cuadros a img{
      width: 25%;
+    
 
   }
   }
@@ -341,7 +342,7 @@
 
           } 
           .encabezado p{
-            font-size: 2.5rem;
+            font-size: 2.2rem;
       
           } 
 
@@ -435,7 +436,7 @@
         /*   border: 3px solid rgb(255, 0, 204);  */
             
         }
-  }
+  } 
   /* ------ moviles ------ */
   @media(max-width:393px){
     
@@ -447,6 +448,9 @@
         width: 100%;
         
       }
+      .encabezado p {
+        font-size: 1.8rem;
+    }
     
            
     .studio{
@@ -546,10 +550,6 @@
        width: 100%;
        
      }
-     .encabezado p{
-      font-size: 2.2rem;
-
-    } 
    
           
    .studio{
@@ -644,10 +644,7 @@
             font-size: 10px;
     
           }
-          .encabezado p{
-            font-size: 2rem;
-      
-          } 
+
         
   }
 
